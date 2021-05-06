@@ -1,0 +1,16 @@
+body, html 
+{
+    height: 100%;
+    background-color: black;
+}
+#main-content
+{
+    padding: 1em;
+    height: 100%;
+    font-family: helvetica;
+    background-image: url("./full_band.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:ghostwhite;
+}
