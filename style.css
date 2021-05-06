@@ -14,3 +14,12 @@ body, html
     background-size: cover;
     color:ghostwhite;
 }
+a
+{
+    color:ghostwhite;
+}
+a:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
