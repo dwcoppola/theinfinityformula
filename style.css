@@ -1,25 +1,82 @@
-body, html 
+body
 {
-    height: 100%;
-    background-color: black;
-}
-#main-content
-{
-    padding: 1em;
-    height: 100%;
-    font-family: helvetica;
-    background-image: url("./full_band.png");
-    background-position: center;
+    background-image: url(./circuitry.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color:ghostwhite;
+    background-attachment: fixed;
+    font-size: 15px;
 }
-a
+
+#main-header
 {
-    color:ghostwhite;
+    background-image: url('./banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 900px;
+    height: 200px;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+@media (max-width: 700px) {
+    #main-header {
+        display: none;
+    }
+}
+
+#main-nav
+{
+    font-size: x-large;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(197, 56, 56);
+}
+
+#main-content
+{
+    background-color: rgba(0, 0, 0, 0.75);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 625px;    
+    color: rgb(255, 255, 255);
+    padding: 2.5em;
+    font-size: larger;
+    text-align: center;
+    min-width: 350px;
+}
+
+.navbar, .navbar-default
+{
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}
+
+li
+{
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
 a:hover
 {
-    font-weight: bold;
     cursor: pointer;
+}
+
+.footer
+{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-top: .5em;
+}
+
+a, a:visited
+{
+    color:rgb(197, 56, 56)
 }
