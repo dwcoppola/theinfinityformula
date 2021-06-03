@@ -55,7 +55,7 @@ function renderBio() {
     <p>Brian and Todd from Tonic Thief, frequently misspelled by venues as 'Tonic Theif' (hence The IF),</p>
     <p>got together with David from Infinite Children and recorded an album called <i>Underground Music</i>.</p>
     <br>
-    <p>Later, they would play shows all over the tri-state area as well as a fastival in New York</p>
+    <p>Later, they would play shows all over the tri-state area as well as a festival in New York</p>
     <br>
     <p>Their 2016 sophmore album is called <i>Alienation</i></p>
     <br>
