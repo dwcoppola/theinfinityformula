@@ -19,8 +19,10 @@ body
     margin-right: auto;
 }
 
-@media (max-width: 700px) {
-    #main-header {
+@media (max-width: 700px) 
+{
+    #main-header 
+    {
         display: none;
     }
 }
@@ -36,15 +38,16 @@ body
 
 #main-content
 {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     min-height: 625px;    
     color: rgb(255, 255, 255);
     padding: 2.5em;
+    padding-left: 4em;
     font-size: larger;
-    text-align: center;
+    text-align: left;
     min-width: 350px;
 }
 
@@ -73,10 +76,21 @@ a:hover
     margin-right: auto;
     text-align: center;
     color:rgb(255, 255, 255);
-    margin-top: .5em;
 }
 
 a, a:visited
 {
     color:rgb(197, 56, 56)
+}
+
+.merch-image
+{
+    width: 50%;
+    height: 50%;
+}
+
+#tshirt-images
+{
+    display: flex;
+    flex-direction: row;
 }
