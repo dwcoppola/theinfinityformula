@@ -77,7 +77,7 @@ function renderMerch() {
     main.innerHTML += 
     `
     <h2>Merch</h2>  
-    <p>Coming Soon!"</p>
+    <p>Coming Soon!</p>
     <div id="tshirt-images">
         <img alt="gentleman in black t-shirt with orange logo" src="placeholder_merch.jpg" id="gentlemens-t" class="merch-image">
         <img alt="lady in grey t-shirt with black logo" src="placeholder_merch_2.jpg" id="ladies-t" class="merch-image">
