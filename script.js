@@ -61,7 +61,7 @@ function renderBio() {
     <br>
     <p>Later, they would play shows all over the tri-state area as well as a festival in upstate New York.</p>
     <br>
-    <p>Their 2016 sophmore album is called <i>Alienation</i>.</p>
+    <p>Their 2016 sophomore album is called <i>Alienation</i>.</p>
     <br>
     <p>Both albums were recorded in Cumberland, RI by their friend Eric DiRosario.</p>
     <br>
